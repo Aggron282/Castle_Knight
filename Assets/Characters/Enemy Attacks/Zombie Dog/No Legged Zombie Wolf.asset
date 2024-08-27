@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3230cd09ea5ac4d8588d36af0c909e, type: 3}
+  m_Name: No Legged Zombie Wolf
+  m_EditorClassIdentifier: 
+  name: 
+  health: 900
+  magic_damage: 0
+  melee_damage: 2
+  points: 95
+  config:
+  - {fileID: 11400000, guid: f6b2df1c2c65b824e917fc20414a2cd2, type: 2}
+  - {fileID: 11400000, guid: 190deb8a53cf1f44dbc8679f1b19ba8c, type: 2}
+  velocity_potential: {x: 0, y: 0}
+  rangeSound: {fileID: 8300000, guid: 5ae1cffec51471747af59482d32b0bd5, type: 3}
+  meleeSound: {fileID: 8300000, guid: 5ae1cffec51471747af59482d32b0bd5, type: 3}
+  meleeSound2: {fileID: 0}
+  stunSound: {fileID: 8300000, guid: b1d04c6908d76984f902cae7eeda6f7e, type: 3}
+  staggerSound: {fileID: 8300000, guid: 381c3f86222330d41a0401df0e13d343, type: 3}
+  deathSound: {fileID: 8300000, guid: 05d8aa435f682af4f8686b153561d037, type: 3}
+  uniqueSound: {fileID: 0}
+  poise: 30
+  stun_meter: 10
+  deathParticles: {fileID: 9054984971429246604, guid: 98524e76103263b44ba7d446ef422cdc, type: 3}
+  bloodParticles: {fileID: 4379044859001491087, guid: b1f3864206e48694d904d051450fe665, type: 3}
+  combos: 1
+  action_time: 2
+  all_animations:
+  - isSummoned
+  - isIdle
+  - isBiting
+  - isStaggered
+  - isStunned
+  - isWalking
+  - isLunging
+  idle_ani: isIdle
+  walking_ani: isWalking
+  stun_ani: isStunned
+  stagger_ani: isStaggered
+  death_ani: isDead

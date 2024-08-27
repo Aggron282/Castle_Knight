@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - weapon
+  - enemy
+  - projectile_player
+  - feet_player
+  - steps
+  - Floor
+  - Shield
+  - projectile
+  - Player Spell
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Foreground
+  - Enemy Support
+  - Ladder Climb
+  - PlayerWeapon
+  - Parry
+  - Physical_Enemy
+  - Magic_Enemy
+  - Player Spell
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 561939585
+    locked: 0
+  - name: Foreground
+    uniqueID: 2533928669
+    locked: 0
+  - name: Foreground +
+    uniqueID: 3161798321
+    locked: 0

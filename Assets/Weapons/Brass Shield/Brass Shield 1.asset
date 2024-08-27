@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020333f0fada43a4fa8940f315a85272, type: 3}
+  m_Name: Brass Shield 1
+  m_EditorClassIdentifier: 
+  damage_base: 75
+  magic_cost: 0
+  scaling: 0
+  type: Shield
+  magic_base: 30
+  stun_damage: 0
+  poise_damage: 0
+  special_attack: 
+  isCast: 0
+  description: 'A brass shield that given to all of the castle knights. '
+  weaponType: Shield
+  scaling_stat: 
+  weaponName: brass  shield
+  attackingSound: {fileID: 8300000, guid: f3bf4a3af11b8ae41875a903151c7273, type: 3}
+  impactSound: {fileID: 8300000, guid: bccee8ebc42b2b344b0a60d3a09f2658, type: 3}
+  stunModifier: 0
+  card: {fileID: 1414504486895204806, guid: 19dd0f46dfc3901468d5fe49280e40fd, type: 3}
+  weapon: {fileID: 1414504486895204806, guid: 19dd0f46dfc3901468d5fe49280e40fd, type: 3}
+  typeConfig: {fileID: 0}
+  attackingEffect: {fileID: 0}
+  impactEffect: {fileID: 7854886790484583163, guid: b1d440207d14bd24b86396353c861311, type: 3}
+  specialEffect: {fileID: 7854886790484583163, guid: b1d440207d14bd24b86396353c861311, type: 3}
+  specialMoveConfig: {fileID: 0}
+  icon: {fileID: 21300000, guid: 4210a404b133e974abc0c7b5d399ff15, type: 3}
+  pos: {x: 0, y: 0}
+  strength_scale: 0
+  intelligence_scale: 0
+  level_scale: 0
+  true_scale: 0
+  strength_req: 0
+  intelligence_req: 0
+  endurance_req: 0
+  attunement_req: 0
+  level_req: 0
+  isShield: 1

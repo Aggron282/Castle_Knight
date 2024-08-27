@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020333f0fada43a4fa8940f315a85272, type: 3}
+  m_Name: Darkhand
+  m_EditorClassIdentifier: 
+  damage_base: 657
+  magic_cost: 50
+  scaling: 1.4
+  type: strike
+  description: A fiery hand forged by the mysterious mages of the land  it  can only
+    be wielded by those with a heart strong enough to withstand the flame that it
+    exhibits.
+  weaponType: fist
+  scaling_stat: level
+  weaponName: Darkhand
+  attackingSound: {fileID: 8300000, guid: 2acd5745e0a926d4fa60ec71337c56ed, type: 3}
+  impactSound: {fileID: 8300000, guid: 00213e843537e074cab31355155fcfa3, type: 3}
+  stunModifier: 2
+  card: {fileID: 1463471078564804737, guid: 1852a2e8b9624f546974c088b939f255, type: 3}
+  weapon: {fileID: 8429631060423165062, guid: a2162e2ff8bbd6d47aafcb9781fcde27, type: 3}
+  typeConfig: {fileID: 11400000, guid: 48f8b2a026ed100489ea4f3b0be9e5bc, type: 2}
+  attackingEffect: {fileID: 5571594303088305402, guid: 89efd832c8581bd47a074189db2eed56, type: 3}
+  impactEffect: {fileID: 5571594303088305402, guid: 1c23ecf8d36eb84489f6a9b3bbfbb5cb, type: 3}
+  specialEffect: {fileID: 1401185244822201383, guid: 3ec4325177544b047a47e0e725d63be4, type: 3}
+  specialMoveConfig: {fileID: 11400000, guid: ad1e65cfeb3adea4bb023bbfba5384d5, type: 2}
+  icon: {fileID: 21300000, guid: a946c641156a0344b9ec99074958ceb9, type: 3}
+  pos: {x: 0.75, y: -0.2}

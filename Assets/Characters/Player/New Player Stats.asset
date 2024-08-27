@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f89b6d2a83489249a1b6f070a849a31, type: 3}
+  m_Name: New Player Stats
+  m_EditorClassIdentifier: 
+  base_strength: 20
+  base_dexterity: 20
+  base_stamina: 50
+  base_magic: 50
+  base_physical_defense: 30
+  base_magic_defense: 30
+  base_health: 400
+  base_magic_attack: 20
+  base_faith: 20
+  base_level: 9
+  strength_level: 11
+  intelligence_level: 8
+  endurance_level: 14
+  attunement_level: 10
+  vitality_level: 15
+  poise: 10
+  base_souls_required: 200

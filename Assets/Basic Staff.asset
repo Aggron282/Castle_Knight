@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020333f0fada43a4fa8940f315a85272, type: 3}
+  m_Name: Basic Staff
+  m_EditorClassIdentifier: 
+  damage_base: 40
+  magic_cost: 50
+  scaling: 1.2
+  type: Staff
+  magic_base: 60
+  stun_damage: 0
+  poise_damage: 0
+  special_attack: none
+  isCast: 1
+  description: A basic staff for the castle knights. While relativley weak compared
+    to other staff it provides good utitlity for the knights during combat
+  weaponType: Staff
+  scaling_stat: intelligence
+  weaponName: Basic Staff
+  attackingSound: {fileID: 8300000, guid: 01e9b9b05017cbe4db69ca513c11cf17, type: 3}
+  impactSound: {fileID: 0}
+  stunModifier: 0
+  card: {fileID: 7401385968057981281, guid: 47e458ab182e92a4e98d6a8fe65fc949, type: 3}
+  weapon: {fileID: 7401385968057981281, guid: 47e458ab182e92a4e98d6a8fe65fc949, type: 3}
+  typeConfig: {fileID: 11400000, guid: 58d866ef411a5254194cf055792c66d3, type: 2}
+  attackingEffect: {fileID: 0}
+  impactEffect: {fileID: 0}
+  specialEffect: {fileID: 0}
+  specialMoveConfig: {fileID: 0}
+  icon: {fileID: 21300000, guid: 00c876e561ed6284aa11dbb5a311b362, type: 3}
+  pos: {x: 0, y: 0}
+  strength_scale: 1
+  intelligence_scale: 1.6
+  level_scale: 1
+  true_scale: 1
+  strength_req: 2
+  intelligence_req: 9
+  endurance_req: 3
+  attunement_req: 6
+  level_req: 0

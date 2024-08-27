@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3230cd09ea5ac4d8588d36af0c909e, type: 3}
+  m_Name: Mother Scarab
+  m_EditorClassIdentifier: 
+  name: Mother Scarab
+  health: 10000
+  magic_damage: 1.7
+  melee_damage: 1.3
+  points: 3000
+  config:
+  - {fileID: 11400000, guid: a40b9bae5ffff6a438cea45bb820a905, type: 2}
+  - {fileID: 11400000, guid: 6a0b3870a3c361c478810c395f160f40, type: 2}
+  - {fileID: 11400000, guid: 95cce8af7b9b1e1449bf3d27dc3a5862, type: 2}
+  - {fileID: 11400000, guid: 030a4659e7361ae49a6ae3ef80cf03c0, type: 2}
+  velocity_potential: {x: 20, y: 0}
+  rangeSound: {fileID: 8300000, guid: 01e9b9b05017cbe4db69ca513c11cf17, type: 3}
+  meleeSound: {fileID: 8300000, guid: 4f15fe3ef025fd6499decf6048bb5de6, type: 3}
+  meleeSound2: {fileID: 8300000, guid: 69036a8af35948344a1bb882c337c9e5, type: 3}
+  stunSound: {fileID: 8300000, guid: b1d04c6908d76984f902cae7eeda6f7e, type: 3}
+  staggerSound: {fileID: 8300000, guid: 381c3f86222330d41a0401df0e13d343, type: 3}
+  deathSound: {fileID: 8300000, guid: 05d8aa435f682af4f8686b153561d037, type: 3}
+  uniqueSound: {fileID: 8300000, guid: 0e213bb9b927d6d419be0ff650e74602, type: 3}
+  poise: 60
+  stun_meter: 20
+  deathParticles: {fileID: 9054984971429246604, guid: 98524e76103263b44ba7d446ef422cdc, type: 3}
+  bloodParticles: {fileID: 4379044859001491087, guid: b1f3864206e48694d904d051450fe665, type: 3}
+  combos: 3
+  action_time: 2
+  all_animations:
+  - is_checking
+  - is_quick_bite
+  - is_eating_prey
+  - is_offspring
+  - is_lunging
+  - is_spitting
+  - is_energy_blast
+  - is_idle
+  - is_walking
+  - is_stunned
+  - is_staggered
+  - is_dead
+  - is_magic_attack
+  - is_lunging_hyper
+  idle_ani: is_idle
+  walking_ani: is_walking
+  stun_ani: is_stunned
+  stagger_ani: is_staggered
+  death_ani: is_dead
